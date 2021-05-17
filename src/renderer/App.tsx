@@ -1,12 +1,11 @@
 import React from "react";
 
-import SideComponent from "./Components/sideComponent";
-import MainComponent from "./Components/mainComponent";
+import MainComponent from "../renderer/Components/mainComponent"
 
 const App = () => {
 	return(
-		<div className="">
-			<SideComponent />
+		<div className="App">
+			<MainComponent />
 		</div>
 	);
 }
