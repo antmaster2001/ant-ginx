@@ -11,8 +11,10 @@ let mainWindow
 
 function createMainWindow() {
   const window = new BrowserWindow({
-    title: "My App",
-    webPreferences: {nodeIntegration: true}
+    title: "ANT-GINX",
+    webPreferences: {nodeIntegration: true},
+    width: 1280,
+    height: 760
   })
 
   if (isDevelopment) {

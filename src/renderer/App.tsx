@@ -1,10 +1,14 @@
 import React from "react";
 
-import MainComponent from "../renderer/Components/mainComponent"
+
+//components
+import MainComponent from "./Components/GeneralComponents/mainComponent";
+import HeadDisplay from "./Components/GeneralComponents/HeadComponent";
 
 const App = () => {
-	return(
+	return (
 		<div className="App">
+			<HeadDisplay />
 			<MainComponent />
 		</div>
 	);

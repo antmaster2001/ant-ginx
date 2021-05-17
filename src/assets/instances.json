@@ -1,0 +1,9 @@
+{
+	"instances": [
+		{
+			"name": "dasdasdefault",
+			"description": "this is a default nginx instance",
+			"icon": "default.png"
+		}
+	]
+}
