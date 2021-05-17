@@ -1,2 +1,1 @@
-# ant-ginx
-A nice nginx UI program
+This is a typescript react electron template
